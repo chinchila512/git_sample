@@ -1,0 +1,30 @@
+/* index.jsp（日別検索画面）と
+   monthlyindex.jsp（月別検索画面）で使うCSS */
+
+@charset "UTF-8";
+
+/* 月別/日別検索リンクをテーブルにして調整 */
+.table {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* 月別/日別検索リンクの文字設定 */
+.row {
+	font-size: 21px;
+	font-weight: bold;
+}
+
+/* 月別/日別検索リンクの選択されているほうのスタイル */
+.hako {
+	padding: 5px 12px;
+	border-color: #696969;
+	background-color: #800000;
+	color: #ffffff;
+	font-size: 28px;
+}
+
+/* テキストボックスのサイズ */
+.year, .month, .prefecture {
+	font-size: 24px;
+}

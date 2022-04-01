@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+html * {
+	box-sizing: border-box;
+}
+
+body {
+	background: #e0e0e0; /* 背景色統一 */
+	text-align: center;
+}
+
+/* テキストボックスの左の文字 */
+p.inputTitle {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/* 送信ボタン */
+.button {
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 6px 20px; /* 余白 上下と左右をまとめて指定 */
+	background: #000000; /* 背景色     */
+	font-size: 14pt; /* 文字サイズ */
+	text-align: center; /* 文字位置   */
+	color: #ffffff; /* 文字色     */
+	line-height: 1em; /* 1行の高さ  */
+	transition: .3s; /* なめらか変化 */
+	box-shadow: 1px 1px 1px #666666; /* 影の設定 */
+	cursor: pointer; /* カーソル   */
+}
+
+/* 結果画面の「検索へ戻る」リンク */
+.link {
+	padding-top: 20px;
+	font-size: 25px;
+}
+
+.kome{
+	padding-bottom: 30px;
+	
+	
+}
