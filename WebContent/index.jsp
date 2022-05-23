@@ -11,7 +11,7 @@
 	</head>
 	
 	<body>
-		<h1>新型コロナウイルス新規感染者数調査</h1>
+		<h1>テスト新型コロナウイルス新規感染者数調査</h1>
 		<table class="table">
 			<tr class="row">
 				<td class="hako">日別合計表示</td>
